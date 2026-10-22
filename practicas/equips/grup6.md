@@ -9,3 +9,5 @@ Funcionalitat: (vegeu practica_1_git.html)
 | C · Documentació i integració | | |
 
 Lema del grup: Merge o morir
+
+IA: Claude, para entender Django y escribir el filtro.
