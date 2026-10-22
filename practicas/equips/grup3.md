@@ -4,8 +4,8 @@ Funcionalitat: (vegeu practica_1_git.html)
 
 | Rol | Nom | Usuari de GitHub |
 | --- | --- | --- |
-| A · Codi | | |
+| A · Codi |Izan |imonllorbernabeu-ux |
 | B · Proves | | |
 | C · Documentació i integració | | |
 
-Lema del grup: (cada persona n'escriu un de diferent en la seua branca)
+Lema del grup: (Sense conflictes no hi ha gloria)
