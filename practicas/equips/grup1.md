@@ -2,10 +2,8 @@
 
 Funcionalitat: (vegeu practica_1_git.html)
 
-| Rol | Nom | Usuari de GitHub |
-| --- | --- | --- |
+| Rol | Nom | Correu de GitHub |
+| Documentació, Codi | José Luis Álvarez Céspedes i Hugo Moncho Mollà | 09joselito09@gmail.com // hugocrack2009@gmail.com |
 | A · Codi | | |
 | B · Proves | | |
 | C · Documentació i integració | | |
-
-Lema del grup: (cada persona n'escriu un de diferent en la seua branca)
