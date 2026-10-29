@@ -4,8 +4,8 @@ Funcionalitat: (vegeu practica_1_git.html)
 
 | Rol | Nom | Usuari de GitHub |
 | --- | --- | --- |
-| A · Codi |Izan |imonllorbernabeu-ux |
-| B · Proves | | |
-| C · Documentació i integració |manuel |bunanidel-sketch |
+| A · Codi | | |
+| B · Proves |iker|iker8446759 |
+| C · Documentació i integració | | |
 
-Lema del grup: (el grup tres sense estres.)
+Lema del grup: (gos mal faener)
