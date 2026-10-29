@@ -6,6 +6,6 @@ Funcionalitat: (vegeu practica_1_git.html)
 | --- | --- | --- |
 | A · Codi |Izan |imonllorbernabeu-ux |
 | B · Proves | | |
-| C · Documentació i integració | | |
+| C · Documentació i integració |manuel |bunanidel-sketch |
 
-Lema del grup: (Sense conflictes no hi ha gloria)
+Lema del grup: (el grup tres sense estres.)
