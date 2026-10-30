@@ -8,4 +8,4 @@ Funcionalitat: (vegeu practica_1_git.html)
 | B · Proves | | |
 | C · Documentació i integració | | |
 
-Lema del grup: (cada persona n'escriu un de diferent en la seua branca)
+Lema del grup: (uno para todos y Victor para uno)

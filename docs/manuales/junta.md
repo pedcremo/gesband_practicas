@@ -199,3 +199,5 @@ El nombre y la zona horaria de la asociación los cambia el operador de la plata
 - Dar de alta instrumentos propios desde el panel; por ahora se añaden con la
   importación. Las cuerdas son comunes a todas las bandas y no se modifican.
 - Gestionar cuotas, pagos o liquidaciones: están fuera del MVP.
+El llistat de músics mostra ara un resum amb el nombre de fitxes actives per cada corda (Fusta, Metall, Percussió).
+-
