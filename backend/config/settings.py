@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 from django.core.exceptions import ImproperlyConfigured
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+GESBAND_VERSION = os.getenv("GESBAND_VERSION", "0.1.0")
 TRUE_VALUES = {"1", "true", "yes", "on"}
 FALSE_VALUES = {"0", "false", "no", "off"}
 

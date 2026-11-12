@@ -1,8 +1,11 @@
 from django.contrib import admin
+from django.conf import settings
 from django.contrib.auth import views as auth_views
 from django.http import JsonResponse
 from django.urls import include, path
 from django.views.generic import RedirectView
+from django.views.decorators.http import require_GET
+from django.views.decorators.csrf import csrf_exempt
 
 from config.member_app import member_app, member_app_manifest, member_app_service_worker
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
@@ -55,6 +58,14 @@ from config.panel import (
     members,
 )
 
+@csrf_exempt
+@require_GET
+def version(request):
+    return JsonResponse({
+        "name": "Gesband",
+        "version": settings.GESBAND_VERSION,
+    })
+
 router = DefaultRouter()
 router.register("associations", AssociationViewSet, basename="association")
 router.register("members", MemberViewSet, basename="member")
@@ -69,6 +80,7 @@ router.register("transport-assignments", TransportAssignmentViewSet, basename="t
 urlpatterns = [
     # La raiz lleva al panel; si no hay sesion, `login_required` pasa por el acceso.
     path("", RedirectView.as_view(pattern_name="panel", permanent=False), name="home"),
+    path("version/", version, name="version"),
     path("health/", lambda request: JsonResponse({"status": "ok"}), name="health"),
     path("i18n/", include("django.conf.urls.i18n")),
     path("admin/", admin.site.urls),
