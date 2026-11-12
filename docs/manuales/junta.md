@@ -210,4 +210,4 @@ La práctica define el endpoint público `GET /version/` para consultar la versi
 
 La versión se configura mediante el ajuste `GESBAND_VERSION`, con valor inicial especificado `0.1.0`. El endpoint debe poder consultarse sin iniciar sesión.
 
-**Estado:** la implementación del endpoint y el ajuste todavía no se han localizado en la rama `main` revisada. Su disponibilidad queda pendiente de integrar y probar el código correspondiente.
+**Estado:** el endpoint `GET /version/` está implementado y las pruebas automatizadas correspondientes están integradas en la rama `g4/funcionalitat`. La implementación permite consultar la versión sin autenticación y utiliza el ajuste `GESBAND_VERSION` para configurar el valor devuelto.
