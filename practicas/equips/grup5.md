@@ -8,4 +8,4 @@ Funcionalitat: (vegeu practica_1_git.html)
 | B · Proves | Victor| victorblancodomenech-blip|
 | C · Documentació i integració | | |
 
-Lema del grup: (Lo tuyo es mio y lo mio es mio)
+Lema del grup: (Lo suyo es mio y lo mio es mio)
