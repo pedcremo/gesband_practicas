@@ -9,6 +9,6 @@ Funcionalitat: (vegeu practica_1_git.html)
 | C · Documentació i integració | | |
 
 
-Lema del grup: (uno para todos y Victor para uno)
+Lema del grup: (Lo suyo es mio y lo mio es mio)
 
 
