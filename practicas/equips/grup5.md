@@ -8,4 +8,5 @@ Funcionalitat: (vegeu practica_1_git.html)
 | B · Proves | | |
 | C · Documentació i integració | | |
 
+
 Lema del grup: (It's not over until I win.)

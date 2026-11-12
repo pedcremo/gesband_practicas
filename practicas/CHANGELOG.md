@@ -6,3 +6,4 @@ quan la seua funcionalitat entra en `main`.
 ## Sense publicar
 
 - Base de la pràctica preparada pel professorat.
+- Hola altres grups
