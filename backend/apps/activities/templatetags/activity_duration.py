@@ -9,8 +9,10 @@ register = template.Library()
 
 
 @register.filter
-def duration(starts_at, ends_at):
-    """Devuelve horas y minutos entre dos fechas, o vacío si no son válidas."""
+def duration(activity):
+    """Devuelve horas y minutos de una actividad, o vacío si no tiene final."""
+    starts_at = getattr(activity, "starts_at", None)
+    ends_at = getattr(activity, "ends_at", None)
     if starts_at is None or ends_at is None:
         return ""
 

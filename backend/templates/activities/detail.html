@@ -15,7 +15,7 @@
   </div>
 </div>
 <div class="cards">
-  {% with activity_duration=activity.starts_at|duration:activity.ends_at %}
+  {% with activity_duration=activity|duration %}
     {% if activity_duration %}<div class="card"><span class="eyebrow">{% translate "Duració:" %}</span><p class="display" style="font-size:1.5rem">{{ activity_duration }}</p></div>{% endif %}
   {% endwith %}
   {% if activity.location %}<div class="card"><span class="eyebrow">{% translate "Lugar" %}</span><p class="display" style="font-size:1.5rem">{{ activity.location }}</p></div>{% endif %}
