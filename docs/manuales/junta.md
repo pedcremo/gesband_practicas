@@ -112,6 +112,11 @@ quien lo emitió.
 «Miembros» lista la banda: nombre, tipo (músico socio, socio colaborador/mecenas o
 colaborador musical externo), instrumento y estado. Pulsa un nombre para abrir su ficha.
 
+**Fichas activas por cuerda.** Encima de la tabla de «Miembros» se ve cuántas fichas
+activas hay en cada cuerda, por ejemplo «Viento madera 12 · Viento metal 9 · Percusión 3».
+Cada persona cuenta una sola vez por cuerda aunque toque dos instrumentos de ella; las
+fichas de baja y las de otras bandas no cuentan.
+
 **Dar de alta.** «Miembros» → «Nueva ficha». Solo son obligatorios el nombre y los
 apellidos. Puedes indicar el identificador externo (número de socio, único dentro de la
 banda), tipo, estado, correo, teléfono, dirección, DNI/NIE si la banda lo necesita,

@@ -110,12 +110,29 @@ def members(request):
     association = _association_for(request)
     member_list = Member.objects.filter(association=association).prefetch_related("member_instruments__instrument")
     roles = _roles_in(request, association)
+    # Las cuerdas son un catálogo común: el filtro por asociación va sobre la
+    # ficha, y `distinct` cuenta una sola vez a quien toca dos instrumentos.
+    section_counts = (
+        Section.objects.annotate(
+            active_members=Count(
+                "instruments__member_instruments__member",
+                filter=Q(
+                    instruments__member_instruments__member__association=association,
+                    instruments__member_instruments__member__status=Member.Status.ACTIVE,
+                ),
+                distinct=True,
+            )
+        )
+        .filter(active_members__gt=0)
+        .order_by("order", "name")
+    )
     return render(
         request,
         "members/list.html",
         {
             "association": association,
             "members": member_list,
+            "section_counts": section_counts,
             # Importar sigue siendo solo de `admin`; los accesos, de `admin` y `board`.
             "can_import": AssociationRole.Role.ADMIN in roles,
             "can_manage_access": bool(roles & ACCESS_MANAGER_ROLES),

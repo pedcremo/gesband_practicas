@@ -1,11 +1,12 @@
 # Grup 1
 
-Funcionalitat: (vegeu practica_1_git.html)
+Funcionalitat: Músics per corda
 
 | Rol | Nom | Usuari de GitHub |
 | --- | --- | --- |
-| A · Codi | | |
-| B · Proves | | |
-| C · Documentació i integració | | |
+| A · Codi i B · Proves | Hugo Moncho Mollà | hugocrack2009-source |
+| C · Documentació | José Luis Álvarez Céspedes | Joselito5119 |
+| Revisió | Hector Garcia Priego | pepinillocebolleta07-maker |
+| Integració | David Miras | davmirajr-prog |
 
-Lema del grup: (cada persona n'escriu un de diferent en la seua branca)
+Lema del grup: El mejor grupo de todos 
