@@ -6,6 +6,6 @@ Funcionalitat: (vegeu practica_1_git.html)
 | --- | --- | --- |
 | A · Codi | | |
 | B · Proves | | |
-| C · Documentació i integració | | |
+| C · Documentació i integració |Anes |anesbouabdallah8-jpg |
 
-Lema del grup: (cada persona n'escriu un de diferent en la seua branca)
+Lema del grup: (Qui no s’equivoca, no fa commits)
