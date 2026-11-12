@@ -199,3 +199,15 @@ El nombre y la zona horaria de la asociación los cambia el operador de la plata
 - Dar de alta instrumentos propios desde el panel; por ahora se añaden con la
   importación. Las cuerdas son comunes a todas las bandas y no se modifican.
 - Gestionar cuotas, pagos o liquidaciones: están fuera del MVP.
+
+## Versión de la aplicación
+
+La práctica define el endpoint público `GET /version/` para consultar la versión de Gesband. La respuesta prevista es un JSON con este formato:
+
+```json
+{"name": "Gesband", "version": "0.1.0"}
+```
+
+La versión se configura mediante el ajuste `GESBAND_VERSION`, con valor inicial especificado `0.1.0`. El endpoint debe poder consultarse sin iniciar sesión.
+
+**Estado:** el endpoint `GET /version/` está implementado y las pruebas automatizadas correspondientes están integradas en la rama `g4/funcionalitat`. La implementación permite consultar la versión sin autenticación y utiliza el ajuste `GESBAND_VERSION` para configurar el valor devuelto.
