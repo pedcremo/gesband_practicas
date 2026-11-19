@@ -21,10 +21,6 @@
 </div>
 
 
-<div class="table-wrap">
-<table>
-
-</div>
 {% if section_counts %}
   <p class="muted">
     {% for section in section_counts %}{{ section.label }} {{ section.active_members }}{% if not forloop.last %} · {% endif %}{% endfor %}
